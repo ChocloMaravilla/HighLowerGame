@@ -12,7 +12,7 @@ public class Actores extends Activity {
         setContentView(R.layout.layoutactores);
     }
     public void GoMenu(View view){
-        Intent intent1 = new Intent(this,MainActivity.class);
-        startActivity(intent1);
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
     }
 }

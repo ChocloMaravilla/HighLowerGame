@@ -12,7 +12,7 @@ public class Vehiculos extends Activity {
         setContentView(R.layout.layoutvehiculos);
     }
     public void GoMenu(View view){
-        Intent intent1 = new Intent(this,MainActivity.class);
-        startActivity(intent1);
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
     }
 }

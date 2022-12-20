@@ -80,6 +80,15 @@
                 android:layout_marginRight="0dp"
                 android:orientation="horizontal">
 
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="206dp"
+                    android:layout_height="318dp"
+                    android:layout_weight="1"
+                    android:isScrollContainer="false"
+                    android:rotationX="0"
+                    app:srcCompat="@drawable/estrella" />
+
                 <Button
                     android:id="@+id/Actores"
                     android:layout_width="206dp"
@@ -98,6 +107,7 @@
                     android:onClick="GoActores"
 
                     android:text="Actores"
+                    android:visibility="gone"
                     app:cornerRadius="0dp" />
 
                 <Button
