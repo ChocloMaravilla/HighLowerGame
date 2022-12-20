@@ -25,6 +25,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".Actores"/>
+        <activity android:name=".Vehiculos"/>
+        <activity android:name=".Juegos"/>
+        <activity android:name=".All"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
